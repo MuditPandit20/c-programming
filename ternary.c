@@ -1,8 +1,11 @@
 #include<stdio.h>
-void main()
-{    //checking even or odd using ternary operator
-    int a;
-    printf("enter number:");
-    scanf("%d",&a);
-    a%2==0?printf("even"):printf("odd");
+int main()
+{
+    int age;
+    printf("enter the age :");
+    scanf("%d", &age);
+
+    age >= 21 ? printf("adult \n") : printf("not adult \n");
+    return 0;
+    
 }
